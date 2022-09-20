@@ -2,7 +2,7 @@
 
 /*
 
-Enoncés :
+Enoncé :
 Echo, mascotte de l'équipe de Globalis, a découvert une fonction foo() bien mystérieuse. Hélas, il n'a pas accès au code.
 Curieux et grand amateur de rétro-ingénierie, Echo s'est amusé à appeler cette fonction, en injectant des données en entrée et en récoltant les sorties.
 Le comportement de la fonction foo() est le suivant :
@@ -98,3 +98,13 @@ foreach ($dataSet as $data) {
     }
     echo PHP_EOL;
 }
+/*
+# php response.php
+-
+|0-3|6-10|
+|0-10|
+|0-5|
+|2-6|7-8|
+|1-10|15-20|
+*/
+
